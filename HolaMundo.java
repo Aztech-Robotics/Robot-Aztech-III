@@ -19,7 +19,7 @@ public class HolaMundo {
 
   // Método "despedir al usuario"
   public static void despedir() {
-    System.out.println("Adiós, hasta la próxima");
+    System.out.println("Adiós, vuelva pronto");
   }
 
   // Método "Bienvenido"
