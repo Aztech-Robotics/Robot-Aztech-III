@@ -9,6 +9,7 @@ public class HolaMundo {
 
     saludar(); // Llamada al método "saludar"
     despedir(); // Llamada al método "despedir"
+    Bienvenido(); // Llamada al metodo "Bienvenido"
   }
 
   // Método: "saludar"
@@ -17,7 +18,12 @@ public class HolaMundo {
   }
 
   // Método "despedir al usuario"
-  public static void despedir(){
+  public static void despedir() {
     System.out.println("Adiós, hasta la próxima");
+  }
+
+  // Método "Bienvenido"
+  public static void Bienvenido() {
+    System.out.println("Bienvenido de nuevo usuario");
   }
 }
