@@ -1,11 +1,19 @@
-// Objeto: "HolaMundo"
 
+// Importamos la clase calculadora
+import Calculadora.Calculadora;
+
+// Objeto: "HolaMundo"
 // Clase de nuestro objeto
 public class HolaMundo {
 
   // Método: "main"
   public static void main(String[] args) {
     System.out.println("Primer programa en Java");
+
+    // Creamos el objeto de la clase Calculadora
+    // Tipo de dato / nombre del objeto / operador new / constructor
+    Calculadora calculadora = new Calculadora();
+    System.out.println(calculadora.sumar()); // llamada al método "sumar" del objeto calculadora
 
     saludar(); // Llamada al método "saludar"
     despedir(); // Llamada al método "despedir"
