@@ -14,7 +14,7 @@ public class HolaMundo {
     // Tipo de dato / nombre del objeto / operador new / constructor
     Calculadora calculadora = new Calculadora();
     System.out.println(calculadora.sumar()); // llamada al método "sumar" del objeto calculadora
-
+    System.out.println(calculadora.restar()); // Llamada al metodo "restar" de la clase "Calculadora"
     saludar(); // Llamada al método "saludar"
     despedir(); // Llamada al método "despedir"
     Bienvenido(); // Llamada al metodo "Bienvenido"
