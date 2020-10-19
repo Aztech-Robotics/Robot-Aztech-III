@@ -26,7 +26,7 @@ public class Calculadora {
   }
 
 
-/*
+
   // método multiplicación
 public static int multiplicar() {
     Scanner teclado = new Scanner (System.in);
@@ -42,5 +42,5 @@ public static int multiplicar() {
     return mul;
    i++;
   }
-}*/
+}
 }
