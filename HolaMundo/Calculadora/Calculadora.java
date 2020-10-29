@@ -1,4 +1,4 @@
-package Calculadora;
+package HolaMundo.Calculadora;
 
 // Clase del obeto calculadora
 public class Calculadora {

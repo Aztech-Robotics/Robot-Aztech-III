@@ -1,6 +1,7 @@
+package HolaMundo;
 
 // Importar clase Calculadora para hacer operaciones
-import Calculadora.Calculadora;
+import HolaMundo.Calculadora.Calculadora;
 
 // importar clase Scanner para entrada por teclado
 import java.util.Scanner;
