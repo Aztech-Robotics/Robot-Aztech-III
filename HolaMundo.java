@@ -21,6 +21,9 @@ public class HolaMundo {
     System.out.print("Ingrese el número B: ");
     int b = teclado.nextInt();
 
+    // Cerrar teclado
+    teclado.close();
+
     // Procesar los datos mediante los métodos del objeto calculadora
     int suma = calculadora.sumar(a, b);
     int multiplicacion = calculadora.multiplicar(a, b);
