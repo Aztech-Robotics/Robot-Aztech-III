@@ -3,11 +3,11 @@ package Escuela;
 public class Alumno extends Persona {
   private int matricula;
 
-  public void setEdad(int edad) {
-    this.edad = edad;
+  public void setMatricula(int matricula) {
+    this.matricula = matricula;
   }
 
-  public int getEdad() {
-    return edad;
+  public int getMatricula() {
+    return this.matricula;
   }
 }
